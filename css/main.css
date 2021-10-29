@@ -1,7 +1,7 @@
-#slider{width:1100px; height:250px; margin:0 auto; background-color:white;}
-    #contents2{width:1100px; height:200px; margin:0 auto; background-color:gray;}
-    #contents2 p{margin:10px 10px 10px 10px;text-align:center;font-weight:bold; font-size: 20px;font-family: 'GowunBatang-Regular';}
-    #contents2 h1{margin:10px 10px 10px 10px; font-size:17px;font-family:'GowunBatang-Regular';color:white; text-align:center;}    
+#slider{width:1100px; height:300px; margin:0 auto; background-color:white;}
+    #contents2{padding:-10px; width:1000px; height:140px; margin:0 auto; background-color:gray;}
+    #contents2 p{margin:-20px 10px 10px 10px;text-align:center;font-weight:bold; font-size: 20px;font-family: 'GowunBatang-Regular';}
+    #contents2 h1{margin:-20px 10px 10px 10px; font-size:17px;font-family:'GowunBatang-Regular';color:white; text-align:center;}    
     section{width:1100px; height:400px; margin:0 auto; background-color:white;}
     #product3{width:1100px; height:400px; margin:0 auto; background-color:white;}
     #content{width:1100px; height:230px; margin:0 auto; background-color:gray;}
