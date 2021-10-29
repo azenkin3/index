@@ -25,11 +25,11 @@
         nav ul li a {text-decoration: none; color:#333;}
         nav ul a:hover {color:peachpuff;}
     
-    #top{width:1100px; height:150px; margin:0 auto; background-color: blueviolet;}
+    #top{width:1100px; height:50px; margin:0 auto; background-color: blueviolet;}
 
   
 
-    #sub {width:1100px; height:600px; margin:0 auto; border:3px solid #ededed; box-sizing:border-box; position:relative;}
+    #sub {width:1100px; height:600px; margin:30px 230px; border:3px solid #ededed; box-sizing:content-box; position:relative;}
     #product {width:500px; height:500px; background-color:gold; position:absolute; top:70px; left:30px;}
     
 
@@ -76,11 +76,11 @@ button:nth-child(3) {width:400px;background-color:gray; border-radius:3px; paddi
 
 button:nth-child(4) {width:400px;background-color:gray; border-radius:3px; padding:10px 20px; color:#fff; border:none; }
 
-#banner1{width:900px; height:470px; margin:0 auto; background-color:black;}
+#banner1{width:900px; height:470px; margin:0 auto; background-color:white;}
     
-#banner2{width:840px; height:350px; margin:0 auto; background-color:black; margin:0 auto;}
+#banner2{width:840px; height:350px; margin:0 auto; background-color:white; margin:0 auto;}
 
-    #banner3{width:1070px; height:310px; margin:0 auto; background-color:black;}
+    #banner3{width:1070px; height:310px; margin:0 auto; background-color:white;}
 
     #banner4{width:1070px; height:310px; margin:0 auto; background-color:palegreen;}
 
@@ -88,9 +88,19 @@ button:nth-child(4) {width:400px;background-color:gray; border-radius:3px; paddi
 
         footer{width:1100px; height:250px; margin:0 auto; background-color:white;}
 
-        #cs_info{margin:0 auto;text-align:left;font-size: 12px;font-family: 'GowunBatang-Regular';}
+        #bottom{float:left; width:500px; height:30px; background-color: white; margin:0 auto;}
+        #bottom ul {font-weight:bold; font-size: 17px;font-family: 'GowunBatang-Regular';}
+        #bottom ul li {float: left; padding: 3px 5px;}
+        #bottom ul li a {text-decoration: none; color:#333;}
+        #bottom ul a:hover {color:peachpuff;}
 
-        #right{margin:20px 0px 20px 20px;text-align:right;font-weight:bold; font-size: 12px;font-family: 'GowunBatang-Regular';}
+        
+        
+        
+        .csinfo{padding:10px; float:left; margin:-100px 0px 20px 10px; text-align:left; font-size: 12px;font-family: 'GowunBatang-Regular';}
+        #bot{color:black;}
+
+        #right{margin:20px 0px 20px 0px;text-align:right;font-weight:bold; font-size: 13px;font-family: 'GowunBatang-Regular';}
 
     </style>
     <script src="https://kit.fontawesome.com/29e4618e1b.js" crossorigin="anonymous"></script>
@@ -109,11 +119,11 @@ button:nth-child(4) {width:400px;background-color:gray; border-radius:3px; paddi
             </ul>
         </nav>
     </header>
-    <hr>
+    
 
-    <section id="top"></section>
+    <section id="top"><img src="img/top.jpg"></section>
 
-    <hr>
+    
     <div id="sub">
 
         ​
@@ -286,7 +296,14 @@ button:nth-child(4) {width:400px;background-color:gray; border-radius:3px; paddi
     
     <hr>
     <footer>
-        <nav id=bottom></nav>
+        <nav id=bottom>
+        <ul>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">멤버십프로그램</a></li>
+        </ul>
+        </nav>
         <p id="right">
             개인정보보호책임자: 손해룡 개인정보관리 이메일 : 198812_@naver.com
     호스팅 서비스 사업자 : 다나와 PC <br>
@@ -298,13 +315,26 @@ button:nth-child(4) {width:400px;background-color:gray; border-radius:3px; paddi
 
 
     Copyright @ 2020 DANAWA PC PCPC ALL Rights Reserved.
+<div id="cs">
+    <div class="csinfo">
         </p>
-        <h3><a href="#">CS CENTER</a></h3>
-        <p id="cs_info">
+        <h3 id="bot"><a href="#">CS CENTER</a></h3>
+        <p>
             월-금 am 09:00 - pm 06:00
 <br/>점심시간 : am 12:00 - pm 01:00
 
+</p>
+</div>
+
+
+<div class="csinfo">
+<h3 id="bot"><a href="#">BANK INFO</a></h3>
+<p>
+    예금주: 라인컴퓨터학원
+<br/>국민:123456-78-9101112
+
         </p>
+    </div>
     </footer>
     
 </body>
